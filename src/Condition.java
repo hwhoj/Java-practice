@@ -99,7 +99,7 @@ public class Condition {
 
         //문제2. 비만 계산방법은 BMI지수 = 몸무게(Kg) / (신장(m) x 신장(m))입니다. BMI를 계산해 저체중인지
         //과체중인지 정상 체중인지를 출력해주는 프로그램을 만드세요. BMI가 18.5 미만은 저체중 23 이상이면 과체중입니다.
-        int kg = 82;
+        double kg = 82;
         double tall = 1.82;
         double bmi = kg/(tall*tall);
         System.out.println(bmi);
